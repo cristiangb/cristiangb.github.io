@@ -1,57 +1,95 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta charset="utf-8">
-		<meta name="author" content="Cristian García Bauza">
-		<meta name="keywords" content="Cristian García Bauza, Media Lab, Media.Lab, PLADEMA, Tandil, Simulation, Computer Graphics, Simuladores, Simulacion, computacion grafica, Visualizacion,
-MEDIA.LAB DETEC, CAVE, Rubika, Simex,
-">
-		
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Cristian García Bauza">
+  <meta name="keywords" content="Cristian García Bauza, Media Lab, Media.Lab, PLADEMA, Tandil, Simulation, Computer Graphics, Simuladores, Simulación, computación gráfica, VR, Realidad Virtual, I+D, Research, Engineering">
   <meta name="description" content="Cristian García Bauza — Ingeniería de Software, I+D y simuladores de entrenamiento. CV, proyectos y contacto.">
-
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-		<link rel="stylesheet" href="css/style.css">
-
-		
-	
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <meta property="og:title" content="Cristian García Bauza">
-  <meta property="og:description" content="Ingeniería de Software, I+D y simuladores.">
+  <meta property="og:description" content="Ingeniería de Software, I+D y simuladores de entrenamiento.">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary">
 
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>Cristian García Bauza</title>
+  
+  <style>
+    .lang-switch { margin-top: 20px; font-size: 0.9em; }
+    .lang-switch a { color: #999; text-decoration: none; margin: 0 5px; }
+    .lang-switch a.active { color: #000; font-weight: bold; }
+  </style>
 </head>
 
-	
+<body class="animated bounceInDown">
+  <div class="avatar">
+    <img src="img/avatar.jpg" alt="Avatar">
+  </div>
 
-	<body class="animated bounceInDown">
-		<div class="avatar">
-			<img src="img/avatar.jpg" alt="Avatar">
-		</div>
+  <div class="content" id="content-es">
+    <h1 class="title">Cristian García Bauza</h1>
 
-		<div class="content">
-			<h1 class="title">Cristian D. García Bauza</h1>
+    <p>
+      Director de Operaciones y Proyectos en Media.Lab<br>
+      Investigador CONICET, Docente UNICEN<br>
+      PLADEMA, Tandil (ARG)
+    </p>
 
-			<p>
-				Director de Media.Lab<br>
-				Investigador CONICET, Docente UNICEN<br>
-				PLADEMA, Tandil (ARG).
-			</p>
+    <ul class="social-icons">
+      <li><a class="twitter" href="https://twitter.com/cdgarciabauza" title="Twitter">Twitter</a></li>
+      <li><a class="linkedin" href="https://ar.linkedin.com/in/cristian-garc%C3%ADa-bauza-0b643728" title="LinkedIn">LinkedIn</a></li>
+      <li><a class="youtube" href="https://www.youtube.com/channel/UCuyBd-a4erbE-P1ZH4zU6uA" title="YouTube">YouTube</a></li>
+    </ul>
 
-			<ul class="social-icons">
-				<li><a class="twitter" href="https://twitter.com/cdgarciabauza" title="Twitter">Twitter</a></li>
-				<li><a class="linkedin" href="https://ar.linkedin.com/in/cristian-garc%C3%ADa-bauza-0b643728" title="Linkedin">Linkedin</a></li>
-				<li><a class="skype" href="skype:cdgarciabauza?add" title="Skype">Skype</a></li>
-				<li><a class="youtube" href="https://www.youtube.com/channel/UCuyBd-a4erbE-P1ZH4zU6uA" title="YouTube">YouTube</a></li>
-			</ul>
+    <p>
+      <a href="resources/cv.pdf">Este es mi CV</a><br>
+      <a href="resources/media.lab.pdf">Esto es lo que hacemos en Media.Lab</a>
+    </p>
 
-			<p>
-				<a href="resources/cv.pdf">Este es mi CV</a><br>
-				<a href="resources/media.lab.pdf">Esto es lo que hacemos en Media.Lab</a>
-			</p>
+    <p>¿Querés contactarme? <a href="mailto:cristiangb@gmail.com">Escribime</a></p>
 
-			<p>¿Querés contactarme? <a href="mailto:cristiangb@gmail.com">Escribime</a></p>
-		</div>
-	</body>
+    <div class="lang-switch">
+      <a href="#" class="active" onclick="switchLang('es')">ES</a> | 
+      <a href="#" onclick="switchLang('en')">EN</a>
+    </div>
+  </div>
+
+  <div class="content" id="content-en" style="display:none;">
+    <h1 class="title">Cristian García Bauza</h1>
+
+    <p>
+      COO & Project Director at Media.Lab<br>
+      CONICET Researcher, Professor at UNICEN<br>
+      PLADEMA Institute, Tandil (ARG)
+    </p>
+
+    <ul class="social-icons">
+      <li><a class="twitter" href="https://twitter.com/cdgarciabauza" title="Twitter">Twitter</a></li>
+      <li><a class="linkedin" href="https://ar.linkedin.com/in/cristian-garc%C3%ADa-bauza-0b643728" title="LinkedIn">LinkedIn</a></li>
+      <li><a class="youtube" href="https://www.youtube.com/channel/UCuyBd-a4erbE-P1ZH4zU6uA" title="YouTube">YouTube</a></li>
+    </ul>
+
+    <p>
+      <a href="resources/cv.pdf">My CV (in Spanish)</a><br>
+      <a href="resources/media.lab.pdf">About Media.Lab</a>
+    </p>
+
+    <p>Want to get in touch? <a href="mailto:cristiangb@gmail.com">Email me</a></p>
+
+    <div class="lang-switch">
+      <a href="#" onclick="switchLang('es')">ES</a> | 
+      <a href="#" class="active" onclick="switchLang('en')">EN</a>
+    </div>
+  </div>
+
+  <script>
+    function switchLang(lang) {
+      document.getElementById('content-es').style.display = (lang === 'es') ? 'block' : 'none';
+      document.getElementById('content-en').style.display = (lang === 'en') ? 'block' : 'none';
+    }
+  </script>
+</body>
 </html>
