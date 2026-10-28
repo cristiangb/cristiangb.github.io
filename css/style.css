@@ -130,6 +130,11 @@ body {
                 width: 24px;
                 height: 24px;
             }
+            .x {
+                background-image: url(../img/x.png);
+                width: 24px;
+                height: 24px;
+            }
             .orcid {
                 background-image: url(../img/orcid.png);
                 width: 24px;
